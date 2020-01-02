@@ -24,3 +24,5 @@ TrialAndErrorRule
 The program can randomly generate Sudokus of varying sizes that are solvable with a selection of the above rules. The easiest Sudokus (level 1) can be solved with only `IfNotPossibleElsewhereRule`, `IfAppearsElsewhereRule` and `OnlyOnePossibilityRule`. The hardest Sudokus (level 5) may require trial and error (or a more more sophisticated rule).
 
 Since then, many much better Sudoku programs have become available but I like being able to generate Sudoku's that I know I will be able to solve without too much effort that are nevertheless still challenging (level 4). Somehow just writing this program "cured" me of my Sudoku obsession, because it was enough just to know that I *could* solve them.
+
+You can find the C++ source code [here](https://github.com/teticio/MeLaSudoku).
