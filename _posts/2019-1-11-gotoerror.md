@@ -7,6 +7,7 @@ When programming in Python, it can be quite overwhelming when you hit an error d
 <!--more-->
 
 ![gotoerror](https://github.com/teticio/nbextension-gotoerror/blob/master/demo.gif?raw=true)
+
 If you have not already installed [Jupyter notebook extensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html), you can do this by typing
 
 ```
