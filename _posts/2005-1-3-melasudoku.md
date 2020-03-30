@@ -3,7 +3,7 @@ layout: post
 title: "Me la Sudoku"
 permalink: /melasudoku/
 ---
-I discovered Sudoku on holiday in Lanzarote in 2003 and became so obsessed with it that I spent my first couple of days back at work writing a program to solve and generate new Sudokus. I was fascinated by the fact that it was impossible to tell the difference between a trivial and a fiendishly difficult Sudoku just by looking at it. The name "Me la Sudoku" is a play on the Spanish phrase "me la sudo" which is better left to your imagination.
+I discovered Sudoku on holiday in Lanzarote in 2005 and became so obsessed with it that I spent my first couple of days back at work writing a program to solve and generate new Sudokus. I was fascinated by the fact that it was impossible to tell the difference between a trivial and a fiendishly difficult Sudoku just by looking at it. The name "Me la Sudoku" is a play on the Spanish phrase "me la sudo" which is better left to your imagination.
 <!--more-->
 
 ![melasudoku](/assets/melasudoku.jpg)
