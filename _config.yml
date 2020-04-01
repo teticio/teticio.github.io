@@ -16,7 +16,7 @@
 title: Robert Dargavel Smith
 email: teticio@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am passionate abut mathematics and programming.
+  I am passionate about mathematics and programming.
   Check out some of my projects here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
