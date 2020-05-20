@@ -20,4 +20,4 @@ Some people say that 2018 was the "ImageNet" year for text. By this they are ref
 * [Amazon opinions](https://github.com/teticio/aventuras-con-textos/blob/master/Amazon_Opiniones.ipynb). A Kaggle style competition to use what you have learned to create a model to classify Amazon reviews as either negative or positive. Extra challenges arise from having a very small, unbalanced data set in Spanish.
 * [GPT-2](https://github.com/teticio/aventuras-con-textos/blob/master/GPT2.py). A Python script using Hugging Face's PyTorch implementation to generate text with the 1.5 billion parameter GPT-2 model released by [OpenAI](https://openai.com/blog/gpt-2-1-5b-release/) in November 2019.
 
-All the notebooks can be run on [Google Colab](https://colab.research.google.com/github/teticio/aventuras-con-textos) and the pre-trained checkpoints downloaded to Google Drive.
+All the notebooks can be run on [Google Colab](https://colab.research.google.com/github/teticio/aventuras-con-textos) and the pre-trained checkpoints downloaded to Google Drive. Note that they currently work with TensorFlow 1.x, so you may have to install this with `!pip install --upgrade tensorflow==1.15`
