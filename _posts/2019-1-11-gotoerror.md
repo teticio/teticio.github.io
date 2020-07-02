@@ -12,6 +12,7 @@ If you have not already installed [Jupyter notebook extensions](https://jupyter-
 
 ```
 pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
 ```
 
 Download the Goto Error code from GitHub with
@@ -23,7 +24,7 @@ git clone git://github.com/teticio/nbextension-gotoerror
 install it like so
 
 ```
-jupyter nbextension install nbextension-gotoerror
+jupyter nbextension install nbextension-gotoerror --user
 ```
 
 and finally, enable it thusly
