@@ -6,7 +6,7 @@ permalink: /wordpro/
 A Professional Word Processor ;-)
 <!--more-->
 
-![WordPro](https://github.com/teticio/WordPro/blob/master/wordpro.png?raw=true)
+![WordPro](https://github.com/teticio/WordPro/blob/master/Capture.png?raw=true)
 
 I'm probably not the only person to have come up with the cunning play on words WordPro - as in Word Processor and Word Professional - but I was probably one of the first to do so, as this was 1985 and I was 13 years old. This was my O Level Computer Studies project, which I taught myself and took two years early. I'm not quite sure what possesed me to do that, as it certainly wasn't my parents' idea. I was such a computer nerd at the time (and still am, if I am honest) that I decided I would program a word processor - ahem, more of a text editor really - in 6502 assembler language on my BBC Micro B.
 
