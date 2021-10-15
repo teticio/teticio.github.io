@@ -23,3 +23,135 @@ The backend FastAPI sever actually has several responsibilities. First and forem
 I have tried to follow best practices by including automated unit tests with Jest and Pytest which are run on GitHub Actions every time I push to the `main` branch or a pull request is merged. In fact, as the number of minutes of compute time for GitHub Actions is limited in the free tier, I have a hook that runs the tests locally whenever I do a commit.
 
 Overall, my experience has been very positive. React was a joy to work with and the hot reload feature meant I could iterate very quickly in development. This was even more of a factor with the mobile app development, for which Expo completely avoided the painfully slow compile and install times of Android Studio and XCode. I am a little bit in two minds about PWAs (Progressive Web Applications). The service workers seem to cache too aggressively and I worry that there are will be users running old versions of the frontend that will eventually break, that not even a hard refresh on the browser will necessarily remedy. Working with Kubernetes was more of a love-hate affair. When it works it works everywhere, but getting those fiddly YAML configuration files right requires a lot of digging around on the internet. I do love the fact that I can deploy the whole stack with just one command. I don't even need to worry about SSL certificates any more!
+
+### Tech stack
+<div style="display: flex; flex-wrap: wrap">
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1209/javascript.jpeg"></div>
+		<div>JavaScript</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/993/pUBY5pVj.png"></div>
+		<div>Python</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1020/OYIaJ1KK.png"></div>
+		<div>React</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1025/logo-mysql-170x170.png"></div>
+		<div>MySQL</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1101/C9QJ7V3X.png"></div>
+		<div>Bootstrap</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1031/redis.png"></div>
+		<div>Redis</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/2699/KoK6gHzp.jpg"></div>
+		<div>React Native</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1071/sqlite.jpg"></div>
+		<div>SQLite</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/3350/8261421.png"></div>
+		<div>React Router</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1839/q5uAkmy7.png"></div>
+		<div>SQLAlchemy</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/5795/FLrIEeNN.jpg"></div>
+		<div>Expo</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png"></div>
+		<div>FastAPI</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/5227/n6FsWiMQ.png"></div>
+		<div>Bootswatch</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/12834/uvicorn.png"></div>
+		<div>Uvicorn</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/4717/FtFnqC38_400x400.png"></div>
+		<div>TensorFlow</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/5601/keras.png"></div>
+		<div>Keras</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/6422/react-navigation.png"></div>
+		<div>React Navigation</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/8731/17571969.png"></div>
+		<div>React Native Paper</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/27/sBsvBbjY.png"></div>
+		<div>GitHub</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/586/n4u37v9t_400x400.png"></div>
+		<div>Docker</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png"></div>
+		<div>Visual Studio Code</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1885/21_d3cvM.png"></div>
+		<div>Kubernetes</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1682/IMG_4636.PNG"></div>
+		<div>Webpack</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/3337/Q4L7Jncy.jpg"></div>
+		<div>ESLint</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/2739/-1wfGjNw.png"></div>
+		<div>Babel</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/5848/44mC-kJ3.jpg"></div>
+		<div>Yarn</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png"></div>
+		<div>Travis CI</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/830/jest.png"></div>
+		<div>Jest</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/11563/actions.png"></div>
+		<div>GitHub Actions</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/5983/AHcBc6EG_400x400.jpg"></div>
+		<div>Helm</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png"></div>
+		<div>pytest</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/4837/py.jpg"></div>
+		<div>Pylint</div>
+	</div>
+</div>
