@@ -63,6 +63,10 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div>React Router</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png"></div>
+		<div>NumPy</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
 		<div><img src="https://img.stackshare.io/service/1839/q5uAkmy7.png"></div>
 		<div>SQLAlchemy</div>
 	</div>
