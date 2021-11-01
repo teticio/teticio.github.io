@@ -59,6 +59,10 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div>SQLite</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg"></div>
+		<div>Electron</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
 		<div><img src="https://img.stackshare.io/service/3350/8261421.png"></div>
 		<div>React Router</div>
 	</div>
