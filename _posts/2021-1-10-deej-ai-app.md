@@ -139,6 +139,10 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div>Yarn</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/1276/og-image-8b3e4f7d.png"></div>
+		<div>Terraform</div>
+	</div>
+	<div style="padding: 5px 5px; width: 100px">
 		<div><img src="https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png"></div>
 		<div>Travis CI</div>
 	</div>
@@ -157,6 +161,10 @@ Overall, my experience has been very positive. React was a joy to work with and 
 	<div style="padding: 5px 5px; width: 100px">
 		<div><img src="https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png"></div>
 		<div>pytest</div>
+	</div>
+		<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/7969/default_60d794b64ce2fd1f8bc7db562a93cad412fcc9bc.png"></div>
+		<div>AWS Fargate</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
 		<div><img src="https://img.stackshare.io/service/4837/py.jpg"></div>
