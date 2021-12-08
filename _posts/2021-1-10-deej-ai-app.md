@@ -170,4 +170,8 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div><img src="https://img.stackshare.io/service/4837/py.jpg"></div>
 		<div>Pylint</div>
 	</div>
-</div>
+	<div style="padding: 5px 5px; width: 100px">
+		<div><img src="https://img.stackshare.io/service/7643/kops-logo.jpg"></div>
+		<div>kops</div>
+	</div>
+div>
