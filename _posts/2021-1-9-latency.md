@@ -8,7 +8,7 @@ Even limiting ourselves to AWS, there are a baffling number of ways to deploy se
 
 You will find the code and instructions on how to build each of the following cases [here](https://github.com/teticio/latency).
 
-* **FastAPI + EC2** (`1-fastapi-ec2`). "Serverful" architecture. Spins up an EC2 instance and installs a Python FastAPI server which serves the web page, provides an end-point to increment & return a in-memory counter.
+* **FastAPI + EC2** (`1-fastapi-ec2`). "Serverful" architecture. Spins up an EC2 instance and installs a Python FastAPI server which serves the web page, provides an end-point to increment & return an in-memory counter.
 
 * **Lambda Python + S3** (`2-lambda-python-s3`). Serverless architecture. API Gateway serves the web page from S3 bucket and provides route to a Python Lambda function which stores the counter as an object in a S3 bucket. Note that AWS reuses Lambda functions as much as possible, meaning that moving as much initialization code outside of the handler function itself improves the latency significantly.
 
