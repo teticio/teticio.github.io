@@ -47,7 +47,7 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div>Bootstrap</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
-		<div><img src="https://img.stackshare.io/service/1031/redis.png"></div>
+		<div><img src="https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png"></div>
 		<div>Redis</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
@@ -75,7 +75,7 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div>SQLAlchemy</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
-		<div><img src="https://img.stackshare.io/service/5795/FLrIEeNN.jpg"></div>
+		<div><img src="https://img.stackshare.io/service/5795/default_683a3de22a6983c41f27b04348f4c7380c5e3c21.jpg"></div>
 		<div>Expo</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
@@ -107,7 +107,7 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div>React Native Paper</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
-		<div><img src="https://img.stackshare.io/service/27/sBsvBbjY.png"></div>
+		<div><img src="https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg"></div>
 		<div>GitHub</div>
 	</div>
 	<div style="padding: 5px 5px; width: 100px">
@@ -174,4 +174,4 @@ Overall, my experience has been very positive. React was a joy to work with and 
 		<div><img src="https://img.stackshare.io/service/7643/kops-logo.jpg"></div>
 		<div>kops</div>
 	</div>
-div>
+</div>
