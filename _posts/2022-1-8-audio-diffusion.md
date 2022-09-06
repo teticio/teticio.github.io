@@ -3,6 +3,8 @@ layout: post
 title: "Generating music using images with Hugging Face’s new diffusers package"
 permalink: /latency/
 ---
+[**UPDATE**: I’ve also trained the model on 30,000 samples that have been used in music, sourced from [WhoSampled](https://whosampled.com) and [YouTube](https://youtube.com). The idea is that the model could be used to generate loops or “breaks” that can be sampled to make new tracks. People (“crate diggers”) go to a lot of lengths or are willing to pay a lot of money to find breaks in old records.]
+
 I have been astonished by the recent improvements in Deep Learning models in the domains of image generation ([DALL-E 2](https://openai.com/dall-e-2/), [MidJourney](https://www.midjourney.com/home/), [Imagen](https://imagen.research.google/), [Make-A-Scene](https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/), etc.) and text generation ([GPT-3](https://openai.com/api/), [BLOOM](https://huggingface.co/bigscience/bloom), [BART](https://huggingface.co/facebook/bart-large), [T5](https://huggingface.co/google/t5-v1_1-xl), etc.) but, at the same time, surprised by the relative lack of progress with audio generation. Two notable exceptions come to mind: [MuseNet](https://openai.com/blog/musenet/) treats sheet music as sequential tokens (similar to text) and leverages GPT-2, while [Jukebox](https://openai.com/blog/jukebox/) generates music from raw wave forms. Even so, is audio generation a laggard because there is less interest in it, or because it is intrinsically more challenging?
 <!--more-->
 
@@ -16,7 +18,7 @@ If we can now easily generate convincing looking photos of celebrities using AI,
 
 ### TL;DR
 
-So, how well does it work? [Here](https://soundcloud.com/teticio2/sets/audio-diffusion) are a few examples I have generated. You can also generate more for yourself using a model trained on almost 500 tracks (around 20,000 spectrograms) from my Spotify “liked” playlist on [Google Colab](https://colab.research.google.com/github/teticio/audio-diffusion/blob/master/notebooks/test_model.ipynb) or [Hugging Face Spaces](https://huggingface.co/spaces/teticio/audio-diffusion).
+So, how well does it work? [Here](https://soundcloud.com/teticio2/sets/audio-diffusion-loops) are a few examples I have generated. You can also generate more for yourself using a model trained on almost 500 tracks (around 20,000 spectrograms) from my Spotify “liked” playlist on [Google Colab](https://colab.research.google.com/github/teticio/audio-diffusion/blob/master/notebooks/test_model.ipynb) or [Hugging Face Spaces](https://huggingface.co/spaces/teticio/audio-diffusion).
 
 ### Tell me more...
 
