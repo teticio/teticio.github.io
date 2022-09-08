@@ -18,7 +18,7 @@ If we can now easily generate convincing looking photos of celebrities using AI,
 
 ### TL;DR
 
-So, how well does it work? [Here](https://soundcloud.com/teticio2/sets/audio-diffusion-loops) are a few examples I have generated. You can also generate more for yourself on [Google Colab](https://colab.research.google.com/github/teticio/audio-diffusion/blob/master/notebooks/test_model.ipynb) or [Hugging Face Spaces](https://huggingface.co/spaces/teticio/audio-diffusion). You can choose between a model trained on almost 500 tracks (around 20,000 spectrograms) from my Spotify “liked” playlist or one trained on 30,000 samples that have been used in music.
+So, how well does it work? Check out some automatically generated loops [here](https://soundcloud.com/teticio2/sets/audio-diffusion-loops). You can also generate more for yourself on [Google Colab](https://colab.research.google.com/github/teticio/audio-diffusion/blob/master/notebooks/test_model.ipynb) or [Hugging Face Spaces](https://huggingface.co/spaces/teticio/audio-diffusion). You can choose between a model trained on almost 500 tracks (around 20,000 spectrograms) from my Spotify “liked” playlist or one trained on 30,000 samples that have been used in music.
 
 ### Tell me more...
 
