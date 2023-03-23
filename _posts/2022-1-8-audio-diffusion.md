@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generating music using images with Hugging Face’s new diffusers package"
-permalink: /latency/
+permalink: /audio-diffusion/
 ---
 [**UPDATE**: I’ve also trained the model on 30,000 samples that have been used in music, sourced from [WhoSampled](https://whosampled.com) and [YouTube](https://youtube.com). The idea is that the model could be used to generate loops or “breaks” that can be sampled to make new tracks. People (“crate diggers”) go to a lot of lengths or are willing to pay a lot of money to find breaks in old records.]
 
