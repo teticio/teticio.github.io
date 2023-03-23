@@ -10,7 +10,7 @@ I have been astonished by the recent improvements in Deep Learning models in the
 
 Whatever the case, audio can easily be converted to an image and vice versa, by way of a [mel spectrogram](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum).
 
-![Mel spectrogram](https://github.com/teticio/audio-diffusion/blob/main/mel.png?raw=true)
+![Mel spectrogram](https://user-images.githubusercontent.com/44233095/205305826-8b39c917-26c5-49b4-887c-776f5d69e970.png)
 
 The horizontal axis of the spectrogram is time, the vertical axis is frequency (on a log scale) and the shade represents amplitude (also on a log scale). The mel spectrogram is supposed to correspond closely to how the human ear perceives sound.
 
