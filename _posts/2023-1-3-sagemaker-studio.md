@@ -95,5 +95,5 @@ More details and code can be found [here](https://github.com/clarityai-eng/sagem
 
 ## References
 
-* https://github.com/aws-samples/sagemaker-ssh-helper
-* https://github.com/aws-samples/sagemaker-studio-lifecycle-config-examples
+* [SageMaker SSH Helper](https://github.com/aws-samples/sagemaker-ssh-helper)
+* [SageMaker Studio Lifecycle Configuration Samples](https://github.com/aws-samples/sagemaker-studio-lifecycle-config-examples)
