@@ -1,16 +1,14 @@
 ---
 layout: post
 title: "Generating music using images with Hugging Face’s new diffusers package"
-permalink: /latency/
+permalink: /audio-diffusion/
 ---
-[**UPDATE**: I’ve also trained the model on 30,000 samples that have been used in music, sourced from [WhoSampled](https://whosampled.com) and [YouTube](https://youtube.com). The idea is that the model could be used to generate loops or “breaks” that can be sampled to make new tracks. People (“crate diggers”) go to a lot of lengths or are willing to pay a lot of money to find breaks in old records.]
-
 I have been astonished by the recent improvements in Deep Learning models in the domains of image generation ([DALL-E 2](https://openai.com/dall-e-2/), [MidJourney](https://www.midjourney.com/home/), [Imagen](https://imagen.research.google/), [Make-A-Scene](https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/), etc.) and text generation ([GPT-3](https://openai.com/api/), [BLOOM](https://huggingface.co/bigscience/bloom), [BART](https://huggingface.co/facebook/bart-large), [T5](https://huggingface.co/google/t5-v1_1-xl), etc.) but, at the same time, surprised by the relative lack of progress with audio generation. Two notable exceptions come to mind: [MuseNet](https://openai.com/blog/musenet/) treats sheet music as sequential tokens (similar to text) and leverages GPT-2, while [Jukebox](https://openai.com/blog/jukebox/) and [WaveNet](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio) generate music from raw wave forms. Even so, is audio generation a laggard because there is less interest in it, or because it is intrinsically more challenging?
 <!--more-->
 
 Whatever the case, audio can easily be converted to an image and vice versa, by way of a [mel spectrogram](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum).
 
-![Mel spectrogram](https://github.com/teticio/audio-diffusion/blob/main/mel.png?raw=true)
+![Mel spectrogram](https://user-images.githubusercontent.com/44233095/205305826-8b39c917-26c5-49b4-887c-776f5d69e970.png)
 
 The horizontal axis of the spectrogram is time, the vertical axis is frequency (on a log scale) and the shade represents amplitude (also on a log scale). The mel spectrogram is supposed to correspond closely to how the human ear perceives sound.
 
