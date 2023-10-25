@@ -3,6 +3,8 @@ layout: post
 title: "Generating music using images with Hugging Face’s new diffusers package"
 permalink: /audio-diffusion/
 ---
+Now integrated in Hugging Face's [diffusers](https://huggingface.co/docs/diffusers/api/pipelines/audio_diffusion) package!
+
 I have been astonished by the recent improvements in Deep Learning models in the domains of image generation ([DALL-E 2](https://openai.com/dall-e-2/), [MidJourney](https://www.midjourney.com/home/), [Imagen](https://imagen.research.google/), [Make-A-Scene](https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/), etc.) and text generation ([GPT-3](https://openai.com/api/), [BLOOM](https://huggingface.co/bigscience/bloom), [BART](https://huggingface.co/facebook/bart-large), [T5](https://huggingface.co/google/t5-v1_1-xl), etc.) but, at the same time, surprised by the relative lack of progress with audio generation. Two notable exceptions come to mind: [MuseNet](https://openai.com/blog/musenet/) treats sheet music as sequential tokens (similar to text) and leverages GPT-2, while [Jukebox](https://openai.com/blog/jukebox/) and [WaveNet](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio) generate music from raw wave forms. Even so, is audio generation a laggard because there is less interest in it, or because it is intrinsically more challenging?
 <!--more-->
 
